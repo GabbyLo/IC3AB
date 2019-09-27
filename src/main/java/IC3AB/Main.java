@@ -16,6 +16,25 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Hello Java");
+        int programminggrade = 87;
+        System.out.println("Your grade is " + programminggrade);
+        
+        float grade = 85;
+        String remark = "";
+        if (grade > 90){
+           remark = "High Honor";
+        }
+        else if (grade > 84){
+           remark = "with Honors";
+        }
+        else if (grade > 74.4){
+           remark = "Passed";
+        }
+        else {
+             remark = "Failed";
+        }
+        System.out.println("The Grade " + grade + " is " + remark);
     }
     
 }
